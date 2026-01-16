@@ -5,3 +5,30 @@
     margin: 0px;
 }
 
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav {
+    font-size: inherit
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+svg {
+    display: block;
+}
+
+li {
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}
