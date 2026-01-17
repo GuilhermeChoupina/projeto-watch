@@ -10,11 +10,12 @@ body {
     margin: auto;
 }
 
+/*  h1 e valores  */
 nav {
     font-size: inherit
 }
 
-ul {
+#opcoes-nav {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -30,5 +31,158 @@ li {
 }
 
 li:hover {
+    text-decoration: underline;
+}
+
+.titulo-valor {
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+.info-valor {
+    padding-top: 30px;
+}
+
+#link-valor {
+    color: rgba(0, 0, 255, 0.753);
+}
+
+#link-valor:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/*  cores  */
+.cores {
+    padding-top: 20px;
+}
+
+#opcoes-cores img {
+    width: 40px;
+    height: 40px;
+}
+
+#opcoes-cores {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+#opcoes-cores input[type="radio"] {
+    display: none;
+}
+
+#carbon-neutral img {
+    width: 110px;
+    padding-top: 10px;
+}
+
+/*  tamanho caixa  */
+.opcao-tamanho input[type="radio"] {
+    display: none;
+}
+
+.tamanho-caixa h2 {
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+.opcao-tamanho input[type="radio"] {
+    display: none;
+}
+
+.opcao-tamanho label {
+    display: inline-block;
+    padding: 40px 60px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.opcao-tamanho input[type="radio"]:checked + label {
+    border-color: #0071e3;
+}
+
+
+/*  frase e link abaixo dos tamanhos  */
+.frase-link {
+    padding-top: 15px;
+}
+
+.frase-link a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.753);
+}
+
+.frase-link a:hover {
+    text-decoration: underline;
+}
+
+
+/*  tamanho da pulsiera  */
+.tamanho-pulseira h2 {
+    padding: 20px 0px 10px 0px;
+}
+
+#letra-cinza {
+    color: gray;
+}
+
+/* ENTREGA */
+.entrega {
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.informacoes-entrega {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.informacoes-entrega a {
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.753);
+}
+
+.informacoes-entrega a:hover {
+    text-decoration: underline;
+}
+
+/* BOTÃO */
+button {
+    margin-top: 15px;
+    padding: 8px 35px;
+    background-color: rgba(0, 0, 255, 0.753);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* EXTRA */
+.extra h2 {
+    padding-top: 20px;
+}
+
+.extra p {
+    padding: 10px 0px;
+}
+
+.extra a {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.753);
+}
+
+.extra a:hover {
     text-decoration: underline;
 }
